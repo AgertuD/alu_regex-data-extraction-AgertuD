@@ -8,9 +8,11 @@ The tool can extract the following data types:
 - 📞 Phone numbers (multiple formats: (123) 456-7890, 123.456.7890, 123-456-7890)
 - 💳 Credit card numbers (format: XXXX XXXX XXXX XXXX)
 - ⏰ Time (12/24-hour formats: 14:30, 2:30 PM)
-- 🏷️ HTML tags (e.g., <div>, <p>, <img>)
+- 🏷️ HTML tags (e.g., div, p, img)
 - #️⃣ Hashtags (e.g., #example, #ThisIsAHashtag)
 - 💰 Currency amounts (e.g., $19.99, $1,234.56)
+
+Setup Instructions
 
 1. Clone the repository:
    ```sh
@@ -25,3 +27,21 @@ The tool can extract the following data types:
    ```sh
    node index.js
    ```
+
+Edge Case Handling
+
+The implementation ensures correct extraction by handling:
+
+Various email domain formats (e.g., .com, .co.uk)
+
+Different phone number formats ((123) 456-7890, 123-456-7890)
+
+Time formats with and without AM/PM
+
+Valid URL structures with http and https
+
+Developer Details
+
+Developer: Agertu Diriba
+
+GitHub Repo: alu_regex-data-extraction-Agertu
