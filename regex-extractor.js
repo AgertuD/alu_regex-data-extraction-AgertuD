@@ -30,18 +30,16 @@ function extractData(text, pattern) {
 // ==================================================
 // Step 3: Define a Sample Text to Test the Regex Patterns
 // ==================================================
+
 const sampleText = `
-    Contact us at support@example.com or visit https://www.example.com.
-    Call us at (123) 456-7890 or 123-456-7890.
-    Payment can be made using 1234-5678-9012-3456.
-    For more information, email info@company.co.uk.
-    Visit our blog at https://blog.example.org/page.
-    Call our toll-free number: 800-123-4567.
-    Credit card payment: 1234 5678 9012 3456.
-    The meeting is scheduled at 14:30 (24-hour format) or 2:30 PM (12-hour format).
-    HTML tags: <p>Hello World</p>, <div class="example">, <img src="image.jpg" alt="description">.
-    Hashtags: #example, #ThisIsAHashtag.
-    Currency amounts: $19.99, $1,234.56.
+  Email: user@example.com, firstname.lastname@company.co.uk
+  Phone: (123) 456-7890, 123-456-7890, 123.456.7890
+  URL: https://www.example.com, https://subdomain.example.org/page
+  Credit Card: 1234 5678 9012 3456, 1234-5678-9012-3456
+  Time: 14:30, 2:30 PM
+  HTML: <p>Paragraph</p>, <div class="example">Content</div>, <img src="image.jpg" alt="description">
+  Hashtags: #example, #ThisIsAHashtag
+  Currency: $19.99, $1,234.56
 `;
 
 // ==================================================
