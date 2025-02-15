@@ -1,5 +1,3 @@
-// dataExtraction.js
-
 // Welcome to the Data Extraction Script! 🚀
 // This script uses the power of Regular Expressions (regex) to extract specific data types from a block of text.
 // Let's dive into the magic of regex and extract some data! 🪄
