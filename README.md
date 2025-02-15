@@ -22,10 +22,10 @@ The tool can extract the following data types:
    ```sh
    cd alu_regex-data-extraction-AgertuD
    ```
-3. Open `index.js` in a code editor.
+3. Open `regex-extractor.js` in a code editor.
 4. Run the script using Node.js:
    ```sh
-   node index.js
+   node regex-extractor.js
    ```
 
 ## Edge Case Handling
