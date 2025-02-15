@@ -1,4 +1,4 @@
-Regex Data Extraction
+## Regex Data Extraction
 
 This tool uses regular expressions to extract various data types from text input. It's designed to identify and extract common data patterns including emails, URLs, phone numbers, and more.
 
@@ -12,15 +12,15 @@ The tool can extract the following data types:
 - #️⃣ Hashtags (e.g., #example, #ThisIsAHashtag)
 - 💰 Currency amounts (e.g., $19.99, $1,234.56)
 
-Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/{YourUsername}/alu_regex-data-extraction-{YourUsername}.git
+   git clone https://github.com/AgertuD/alu_regex-data-extraction-AgertuD.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd alu_regex-data-extraction-{YourUsername}
+   cd alu_regex-data-extraction-AgertuD
    ```
 3. Open `index.js` in a code editor.
 4. Run the script using Node.js:
@@ -28,7 +28,7 @@ Setup Instructions
    node index.js
    ```
 
-Edge Case Handling
+## Edge Case Handling
 
 The implementation ensures correct extraction by handling:
 
@@ -40,7 +40,7 @@ Time formats with and without AM/PM
 
 Valid URL structures with http and https
 
-Developer Details
+## Developer Details
 
 Developer: Agertu Diriba
 
